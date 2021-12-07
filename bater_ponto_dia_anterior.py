@@ -22,7 +22,7 @@ campo_login.send_keys("beatriz.santos@itriad.org.br")
 campo_password_xpath = "/html/body/ng-view/div/div/form/div/div[2]/div/div/div/div/input"
 campo_password = driver.find_element(By.XPATH, campo_password_xpath)
 campo_password.clear()
-campo_password.send_keys("Resgate123")
+campo_password.send_keys("belinha28!!")
 
 botao_entrar_xpath = "/html/body/ng-view/div/div/form/div/div[4]/div/div/div[3]/button"
 botao_entrar = driver.find_element(By.XPATH, botao_entrar_xpath)
